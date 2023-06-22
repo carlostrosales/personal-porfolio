@@ -1,9 +1,10 @@
 import React from "react";
 import profilePic from '../assets/profile-pic.jpeg'
 import Typewriter from "typewriter-effect";
+import "./Home.css"
 
 const homeStyle = {
-    backgroundColor: 'white',
+    backgroundColor: 'blue',
 }
 
 const titleStyle = {
@@ -45,6 +46,7 @@ const Home = () => {
             }}
           />
         </div>
+        <a className="arrow" />
       </div>
     );
 }
