@@ -2,13 +2,14 @@
     border: solid black;
     border-color: #575757;
     border-width: 0 3px 3px 0;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transition: 0.3s;
     animation: bounce 3s infinite;
     margin: 20px;
-    margin-top: 700px;
-    position: absolute;
+    margin-top: 350px;
+    position: static;
 }

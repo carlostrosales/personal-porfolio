@@ -3,9 +3,6 @@ import profilePic from '../assets/profile-pic.jpeg'
 import Typewriter from "typewriter-effect";
 import "./Home.css"
 
-const homeStyle = {
-    backgroundColor: 'blue',
-}
 
 const titleStyle = {
     maxWidth: '100%',
@@ -18,23 +15,23 @@ const titleStyle = {
     fontFamily: 'nobel',
     fontWeight: '300',
     fontStyle: 'normal',
-}
+} as React.CSSProperties;
 
 const imageStyle = {
   float: 'left',
   width: '500px',
   paddingTop: '10%',
   paddingLeft: '10%',
-}
+} as React.CSSProperties;
 
 const typewriterStyle = {
   paddingRight: '35%',
   float: 'right',
-}
+} as React.CSSProperties;
 
 const Home = () => {
     return (
-      <div style={homeStyle}>
+      <div>
         <h1 style={titleStyle}>CARLOS ROSALES</h1>
         <img style={imageStyle} src={profilePic} alt="profilePic" />
         <div style={typewriterStyle}>
@@ -46,7 +43,7 @@ const Home = () => {
             }}
           />
         </div>
-        <a className="arrow" />
+        <a className="arrow" href='!#'> </a>
       </div>
     );
 }
