@@ -2,11 +2,17 @@ import React from 'react';
 
 
 const About = () => {
+
+  const mainContainer = {
+    backgroundColor: '#F0F0F0',
+  } as React.CSSProperties;
+
     return (
       <div>
-        <h2>About Me</h2>
-        <p>I am a software developer...</p>
-      </div>  
+        <div style={mainContainer}>
+          <h2>Hello World</h2>
+        </div>
+      </div>
     );
 };
 
