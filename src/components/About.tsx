@@ -39,7 +39,7 @@ const About = () => {
   };
 
   const imageStyle = {
-    height: '450px',
+    height: '500px',
   } as React.CSSProperties;
 
     return (
