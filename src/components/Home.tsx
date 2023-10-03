@@ -37,6 +37,7 @@ const Home = () => {
                 "Hey there, welcome!",
                 "My name is Carlos",
                 "I'm a Software Developer",
+                "I live in Austin, Texas",
               ],
               autoStart: true,
               loop: true,
