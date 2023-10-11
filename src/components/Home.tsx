@@ -35,7 +35,7 @@ const Home = () => {
             options={{
               strings: [
                 "Hey there, welcome!",
-                "My name is Carlos",
+                "My name is Carlos Rosales",
                 "I'm a Software Developer",
                 "I live in Austin, Texas",
               ],
