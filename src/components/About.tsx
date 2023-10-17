@@ -40,6 +40,9 @@ const About = () => {
 
   const imageStyle = {
     height: '500px',
+    float: 'right',
+    width: '410px',
+    paddingBottom: '100px',
   } as React.CSSProperties;
 
     return (
@@ -52,7 +55,7 @@ const About = () => {
               <span style={textStyles.fifthColor}>aboutMe</span>
               <span style={textStyles.secondColor}>;</span>
             </div>
-            <img style={imageStyle} src={profilePic} alt="profilePic" />
+            <img style={imageStyle} src={profilePic} alt="profilePic"/>
           </div>
         </div>
       </div>
