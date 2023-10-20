@@ -21,6 +21,7 @@ const About = () => {
     padding: "30px",
     margin: "40px",
     marginTop: "40px",
+    marginLeft: '10%',
     borderTop: "20px solid #e5e5e5",
     boxShadow: "12px 12px 1px #B6D0E2",
     fontFamily: 'Monaco,monospace',
@@ -39,23 +40,38 @@ const About = () => {
   };
 
   const imageStyle = {
-    height: '500px',
-    float: 'right',
-    width: '410px',
-    paddingBottom: '100px',
+    height: "450px",
+    width: "375px",
+    marginTop: "3%",
+    marginRight: "15%",
+    borderTop: "20px solid #e5e5e5",
+    boxShadow: "12px 12px 1px #B6D0E2",
+    fontFamily: "Monaco,monospace",
+  } as React.CSSProperties;
+
+  const rowStyle = {
+    display: 'flex',
+    marginTop: '0.5%',
   } as React.CSSProperties;
 
     return (
       <div>
         <div style={mainContainer}>
-          <h1 style={titleStyle}>HELLO, WORLD!</h1>
-          <div id="container-row">
+          <div style={titleStyle}>
+            <h1>HELLO, WORLD!</h1>
+          </div>
+          <div style={rowStyle}>
             <div style={ideStyle}>
-              <span style={textStyles.firstColor}>package </span>
-              <span style={textStyles.fifthColor}>aboutMe</span>
-              <span style={textStyles.secondColor}>;</span>
+              <div style={{float: 'left', paddingLeft: '1%'}}>
+                <span style={textStyles.firstColor}>package </span>
+                <span style={textStyles.fifthColor}>aboutMe</span>
+                <span style={textStyles.secondColor}>;</span>
+                <br />
+                <br />
+                <span style={textStyles.firstColor}>public </span>
+              </div>
             </div>
-            <img style={imageStyle} src={profilePic} alt="profilePic"/>
+            <img style={imageStyle} src={profilePic} alt="profilePic" />
           </div>
         </div>
       </div>
