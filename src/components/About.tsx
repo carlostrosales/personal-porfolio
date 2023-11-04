@@ -37,6 +37,9 @@ const About = () => {
     secondColor: {
       color: "#c5c8c6",
     },
+    thirdColor: {
+      color: "#5888ca",
+    },
   };
 
   const imageStyle = {
@@ -62,13 +65,16 @@ const About = () => {
           </div>
           <div style={rowStyle}>
             <div style={ideStyle}>
-              <div style={{float: 'left', paddingLeft: '1%'}}>
+              <div style={{ float: "left", paddingLeft: "1%" }}>
                 <span style={textStyles.firstColor}>package </span>
                 <span style={textStyles.fifthColor}>aboutMe</span>
                 <span style={textStyles.secondColor}>;</span>
                 <br />
                 <br />
                 <span style={textStyles.firstColor}>public </span>
+                <span style={textStyles.thirdColor}>class </span>
+                <span style={textStyles.fifthColor}>Carlos </span>
+                <span style={textStyles.firstColor}>extends </span>
               </div>
             </div>
             <img style={imageStyle} src={profilePic} alt="profilePic" />
